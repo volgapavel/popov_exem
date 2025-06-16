@@ -1,0 +1,8 @@
+paths:
+  results_dir: results
+  raw_csv:     results/data_raw.csv
+  clean_csv:   results/data_clean.csv
+  model_pkl:   results/model.pkl
+split:
+  test_size:   0.2
+  random_state: 42

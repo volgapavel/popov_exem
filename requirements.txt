@@ -1,0 +1,10 @@
+pandas==2.2.2
+scikit-learn==1.4.2
+numpy>=1.26
+joblib==1.4.0
+pyarrow>=16.0  # parquet read/write
+ucimlrepo==0.0.6
+
+apache-airflow==2.10.2  # pin to match local Airflow setup
+
+python-dotenv>=1.0  # load .env with RESULTS_DIR etc.
